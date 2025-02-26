@@ -17,3 +17,5 @@ jobs:
           echo "Job ID: $GITHUB_JOB"
           echo "Action: $GITHUB_ACTION"
           echo "Actor: $GITHUB_ACTOR"
+          echo "Event Name: $GITHUB_EVENT_NAME"
+          echo "Workspace: $GITHUB_WORKSPACE"
